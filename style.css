@@ -1,0 +1,921 @@
+body{
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-color: gray;
+	background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+}
+
+.header{
+	padding:15px 0px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	background-color:#black;
+	position:sticky;
+	top:0;
+	z-index:999;
+	background-image: url("https://wallpapers.com/images/hd/purple-watercolor-background-2560-x-1706-smpcepkzq89ktl41.jpg");
+}
+.header .menu a {
+	padding:5px;
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 24px;
+  font-family: inherit;
+  color: black;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 300%;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.header .menu a:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+.header .menu a{
+	margin:20px;
+}
+.header .menu a:before {
+	
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+.header .menu a:hover::before {
+  filter: blur(20px);
+}
+
+.header .menu a:active {
+  background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+}
+.header .menu{
+	text-align:center;
+	margin-top:35px;
+}
+.header .menu a:hover{
+	color:cyan !important;
+}
+.header .icon a{
+	font-size:30px;
+}
+.header img{
+	width:35%;
+	height:100px;
+	margin-left:100px;
+	border-radius:50px;
+}
+body{
+	
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-image: url("");
+}
+.header .icon{
+	margin-top:35px;
+	color:cyan;
+}
+.header .icon a{
+	text-decoration:none;
+	color:cyan;
+	font-size:18px;
+	margin:0px 12px;
+}
+.home{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-size:100%;
+	height:660px;
+	width:100%;
+	background-image:url("https://wallpapers.com/images/hd/purple-watercolor-background-2560-x-1706-smpcepkzq89ktl41.jpg");
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.about{
+	padding:40px;
+	background-size:100%;
+	height:900px;
+	width:100%;
+	background-color:#D1E5F4	;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.about ul{
+	margin-top:20px;
+	padding:20px;
+	background-color:rgba(255,255,255,0.5);
+}
+.about img{
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	border-radius:30px;
+	margin-top:20px;
+	margin-left:100px;
+	height:300px;
+	width:300px;
+}
+.skills{
+	margin-top:10px;
+	padding:20px;
+	background-color:rgba(255,255,255,0.5);
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.about1{
+	padding:20px;
+	margin-top:20px;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.project{
+	padding:50px;
+	background-size:100%;
+	height:850px;
+	width:100%;
+	background-color:#D1E5F4	;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.project a{
+	margin-top:100px;
+	background-color:rgba(255,255,255,0.2);
+	color:black;
+	text-decoration:none;
+	font-size:45px;
+}
+.project h2{
+	background-color:rgba(255,255,255,0.2);
+}
+.contact{
+	padding:30px;
+	background-size:100%;
+	height:250px;
+	width:100%;
+	background-image:url("https://wallpapers.com/images/hd/purple-watercolor-background-2560-x-1706-smpcepkzq89ktl41.jpg")	;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.contact li{
+	color:black;
+}
+.contact li a{
+	color:black;
+	text-decoration:none;
+}
+.contact iframe{
+	width:340px;
+	height:200px;
+}
+.loader {
+  --col1: rgba(228, 19, 141, 0.925);
+  --col2: rgb(255, 179, 80);
+  font-size: 2em;
+  font-weight: 600;
+  perspective: 800px;
+  position: relative;
+}
+
+.loader::after,
+.loader::before,
+.loader .text::after,
+.loader .text::before {
+  perspective: 800px;
+  animation: anim 2s ease-in-out infinite, dotMove 10s ease-out alternate infinite, move 10s linear infinite 1s;
+  ;
+  content: '●';
+  color: var(--col1);
+  position: absolute;
+  translate: -60px 500px;
+  width: 5px;
+  height: 5px;
+}
+
+.loader::before {
+  animation-delay: 3s;
+  color: var(--col1);
+}
+
+.loader .text::before {
+  color: var(--col2);
+  animation-delay: 2s;
+}
+
+.loader .text::after {
+  color: var(--col2);
+}
+
+.loader .text {
+  animation: anim 20s linear infinite, move 10s linear infinite 1s;
+  color: transparent;
+  background-image: linear-gradient(90deg, 
+  var(--col1) 0%,
+  var(--col2) 100%);
+  background-clip: text;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: skew(5deg, -5deg);
+  -webkit-background-clip: text;
+  position: relative;
+}
+
+@keyframes anim {
+  0%, 100% {
+    text-shadow: 2px 0px 2px rgba(179, 158, 158, .5);
+  }
+
+  50% {
+    background-size: 0%;
+    background-position-x: left;
+    text-shadow: 2px 10px 6px rgba(179, 158, 158, 1);
+  }
+}
+
+@keyframes move {
+  50% {
+    translate: 0px 0px;
+    rotate: x 60deg;
+    transform: skew(-5deg, 5deg);
+  }
+}
+
+@keyframes dotMove {
+  0%, 100% {
+    translate: -60px 300px;
+  }
+
+  50% {
+    translate: 160px -250px;
+    scale: .5;
+    opacity: .85;
+  }
+}
+
+@keyframes text_713 {
+  0% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    letter-spacing: 2px;
+    transform: translateX(26px);
+  }
+
+  80% {
+    letter-spacing: 1px;
+    transform: translateX(32px);
+  }
+
+  90% {
+    letter-spacing: 2px;
+    transform: translateX(0px);
+  }
+
+  100% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes loading_713 {
+  0% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  80% {
+    width: 16px;
+    transform: translateX(64px);
+  }
+
+  90% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  100% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes loading2_713 {
+  0% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+
+  40% {
+    transform: translateX(0%);
+    width: 80%;
+  }
+
+  80% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  90% {
+    width: 80%;
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+}
+.ton1 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton1 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card1 {
+ background-size:100%;
+ height: 170px;
+ background-image:url("https://c4.wallpaperflare.com/wallpaper/885/396/858/planet-gaia-globe-world-wallpaper-thumb.jpg");
+ border-radius:;
+ transition: all .2s;
+}
+
+.card1:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.ton1:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton2 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton2 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card2 {
+ background-size:100%;
+ height: 170px;
+ background-image:url("https://www.shutterstock.com/image-vector/rock-paper-scissors-fingers-vector-260nw-1133196602.jpg");
+ border-radius:;
+ transition: all .2s;
+}
+
+.card2:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.ton2:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton3 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton3 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card3 {
+ background-size:100%;
+ height: 170px;
+ background-image:url("https://www.color-meanings.com/wp-content/uploads/2022/09/colorful-abstract-art-rainbow-waves.jpeg");
+ border-radius:;
+ transition: all .2s;
+}
+
+.card3:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.ton3:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton4 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton4 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card4 {
+ background-size:100%;
+ height: 170px;
+ background-image:url("https://images8.alphacoders.com/132/thumb-1920-1323184.png");
+ border-radius:;
+ transition: all .2s;
+}
+
+.card4:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.ton4:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton5 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton5 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card5 {
+ background-size:100%;
+ height: 170px;
+ background-image:url("https://i.ytimg.com/vi/qx22HNv2Y9s/maxresdefault.jpg");
+ border-radius:;
+ transition: all .2s;
+}
+
+.card5:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.ton5:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton6 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton6 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card6 {
+	background-size:100%;
+	height: 170px;
+	background-image:url("https://images.unsplash.com/photo-1521575107034-e0fa0b594529?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9zdHxlbnwwfHwwfHx8MA%3D%3D");
+	border-radius:;
+	transition: all .2s;
+}
+
+.card6:hover {
+	transform: scale(0.98);
+	border-radius: 20px;
+}
+
+.ton6s:hover {
+	box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton7 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton7 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card7 {
+ background-size:100%;
+ height: 170px;
+ background-image:url("https://t3.ftcdn.net/jpg/02/59/31/70/360_F_259317013_nJJaBgGGzvXMd6cAyLd6yMJtbdnd61wk.jpg");
+ border-radius:;
+ transition: all .2s;
+}
+
+.card7:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.ton7:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton8 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton8 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card8 {
+ background-size:100%;
+ height: 170px;
+ background-image:url("https://img.freepik.com/free-photo/sky-clouds-cinematic-clouds-wallpaper-3_1562-740.jpg");
+ border-radius:;
+ transition: all .2s;
+}
+
+.card8:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.ton8:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.ton9 {
+ margin-top:30px;
+ height: 170px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+.ton9 a{
+	justify-content:center;
+	align-items:center;
+}
+
+.card9 {
+	background-size:100%;
+	height: 170px;
+	background-image:url("https://as2.ftcdn.net/v2/jpg/01/28/92/23/1000_F_128922396_SrOMQsFPkdhnzVJsxxBzlU08x4IDl6z3.jpg");
+	border-radius:;
+	transition: all .2s;
+}
+
+.card9:hover {
+	transform: scale(0.98);
+	border-radius: 20px;
+}
+
+.ton9s:hover {
+	box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.glitch {
+  position: relative;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: black;
+  letter-spacing: 5px;
+  z-index: 1;
+  animation: shift 1s ease-in-out infinite alternate;
+}
+
+.glitch:before,
+.glitch:after {
+  display: block;
+  content: attr(data-glitch);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.glitch:before {
+  animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  color: #8b00ff;
+  z-index: -1;
+}
+
+.glitch:after {
+  animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+  color: #00e571;
+  z-index: -2;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-3px, 3px);
+  }
+
+  40% {
+    transform: translate(-3px, -3px);
+  }
+
+  60% {
+    transform: translate(3px, 3px);
+  }
+
+  80% {
+    transform: translate(3px, -3px);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}
+
+@keyframes shift {
+  0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+    transform: skewX(0deg);
+  }
+
+  41% {
+    transform: skewX(10deg);
+  }
+
+  42% {
+    transform: skewX(-10deg);
+  }
+
+  59% {
+    transform: skewX(40deg) skewY(10deg);
+  }
+
+  60% {
+    transform: skewX(-40deg) skewY(-10deg);
+  }
+
+  63% {
+    transform: skewX(10deg) skewY(-5deg);
+  }
+
+  70% {
+    transform: skewX(-50deg) skewY(-20deg);
+  }
+
+  71% {
+    transform: skewX(10deg) skewY(-10deg);
+  }
+}
+.scanner span {
+  color: transparent;
+  font-size: 1.4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.scanner span::before {
+  content: "Contact...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 4px solid #17FEFF;
+  overflow: hidden;
+  color: black;
+  animation: load91371 2s linear infinite;
+}
+
+@keyframes load91371 {
+  0%, 10%, 100% {
+    width: 0;
+  }
+
+  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+    border-right-color: transparent;
+  }
+
+  11%,21%,31%,41%,51%,61%,71%,81%,91% {
+    border-right-color: #17FEFF;
+  }
+
+  60%, 80% {
+    width: 100%;
+  }
+}
+/* Wave text loader made by: csozi | Website: english.csozi.hu*/
+
+.text21 {
+  color: black;
+  font-weight: bolder;
+}
+
+@keyframes letter {
+  0% {
+    font-size: 30px;
+  }
+
+  50% {
+    font-size: 40px;
+  }
+
+  100% {
+    font-size: 30px;
+  }
+}
+
+.letter {
+  animation: letter 1s infinite;
+}
+
+.letter1 {
+  animation-delay: 0s;
+}
+
+.letter2 {
+  animation-delay: -0.9s;
+}
+
+.letter3 {
+  animation-delay: -0.8s;
+}
+
+.letter4 {
+  animation-delay: -0.7s;
+}
+
+.letter5 {
+  animation-delay: -0.6s;
+}
+
+.letter6 {
+  animation-delay: -0.5s;
+}
+
+.letter7 {
+  animation-delay: -0.4s;
+}
+
+.letter8 {
+  animation-delay: -0.3s;
+}
+
+.letter9 {
+  animation-delay: -0.2s;
+}
+
+.letter10 {
+  animation-delay: -0.1s;
+}
+.letter11{
+	animation-delay:0s;
+}
+.letter12{
+	animation-delay:0.1s;
+}
+
+.cards22 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cards22 .red {
+	background-size:100%;
+  background-image:url("https://wallpapers.com/images/hd/purple-watercolor-background-2560-x-1706-smpcepkzq89ktl41.jpg");
+}
+
+.cards22 .blue {
+  	background-size:100%;
+  background-image:url("https://wallpapers.com/images/hd/purple-watercolor-background-2560-x-1706-smpcepkzq89ktl41.jpg");
+}
+
+.cards22 .green {
+  	background-size:100%;
+  background-image:url("https://wallpapers.com/images/hd/purple-watercolor-background-2560-x-1706-smpcepkzq89ktl41.jpg");
+}
+
+.cards22 .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 20px;
+  width: 50px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.cards22 .card p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.cards2 .card p.second-text {
+  font-size: .7em;
+}
+
+.cards22 .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.cards22:hover > .card22:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+.cards22 h2{
+	padding:5px;
+}
+.cards22 p{
+	padding:5px;
+	font-size:20px;
+}
+@keyframes animate8345 {
+  0%,100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.loader55 {
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right, #2d60ec, #3ccfda);
+  font-size: 30px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate8345 9s linear infinite;
+  font-weight: bold;
+}
+.progress{
+	margin-top:10px;
+}
+.progress{
+	font-size:20px;
+}
+.loader66 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-weight: 900;
+  background: conic-gradient(
+    #dff2ae 0 25%,
+    #ff904f 25% 50%,
+    #feefe7 50% 75%,
+    #ffde2b 75%
+  );
+  background-size: 200% 200%;
+  animation: animateBackground 4.5s ease-in-out infinite;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@keyframes animateBackground {
+  25% {
+    background-position: 0 100%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  75% {
+    background-position: 100% 0%;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
